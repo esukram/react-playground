@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import styles from './nav.module.css'
 
 const links = [
   { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
@@ -19,7 +20,7 @@ export default function Nav() {
         <ul className="flex items-center justify-between space-x-4">
           {links.map(({ href, label }) => (
             <li key={`${href}${label}`}>
-              <a href={href} className="no-underline btn-blue">
+              <a href={href} className={styles.navigation}>
                 {label}
               </a>
             </li>
