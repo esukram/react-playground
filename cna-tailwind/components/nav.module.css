@@ -1,4 +1,14 @@
-
 .navigation {
-  @apply no-underline px-4 py-2 font-bold text-white bg-blue-500 rounded;
+  @apply p-1 text-gray-500;
+}
+
+.navigation > ul {
+  @apply flex items-center justify-around;
+  @apply my-1 mx-auto min-w-max sm:max-w-screen-sm;
+  @apply shadow rounded-md lg:rounded-lg;
+  
+}
+
+.navigation > ul > li {
+  @apply rounded-sm w-20 text-center text-base sm:text-lg hover:underline font-semibold text-opacity-60 hover:text-opacity-100;
 }
