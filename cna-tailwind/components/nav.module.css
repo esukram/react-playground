@@ -6,7 +6,6 @@
   @apply flex items-center justify-around;
   @apply my-1 mx-auto min-w-max sm:max-w-screen-sm;
   @apply shadow rounded-md lg:rounded-lg;
-  
 }
 
 .navigation > ul > li {
